@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,21 +8,27 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            background-color: #f0f2f5;
+            background-color: #f4f4f4;
             color: #333;
             margin: 0;
-            padding: 20px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
         }
-        header {
+        .container {
             background-color: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            max-width: 800px;
-            margin: 0 auto;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 90%;
+            margin: 20px;
         }
         img {
-            max-width: 200px;
+            max-width: 100%;
             height: auto;
             margin-bottom: 20px;
         }
@@ -31,19 +36,38 @@
             color: #0056b3;
             margin-bottom: 10px;
         }
+        h2 {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
         p {
-            margin: 5px 0;
-            line-height: 1.5;
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .info {
+            font-weight: bold;
+            color: #333;
         }
     </style>
 </head>
 <body>
-    <header>
-        <img src="html image Expert Door Mechanic Services LLC Logo.jpg" alt="Expert Door Mechanic Service L.L.C. Logo">
-        <h1>Expert Door Mechanic Service L.L.C.</h1>
-        <p>Your Trusted Door Installation and Hardware Specialists</p>
-        <p>Serving the Tri-State Area with over 20 years of experience.</p>
-        <p>Contact us: 646-902-1981</p>
-    </header>
+
+<div class="container">
+    <img src="Expert Door Mechanic Service LLC Logo.jpg" alt="Expert Door Mechanic Service L.L.C. Logo">
+    <h1>Expert Door Mechanic Service L.L.C.</h1>
+    <h2>Door Installation and Hardware Specialist</h2>
+    
+    <p>With over 20 years of trade experience, we specialize in servicing and installing all commercial and residential door systems, including Kalamein, angle iron, wood, frameless glass, fire-rated, and Ellison balanced doors.</p>
+    
+    <p>Our expertise includes working with specialized hardware such as Dorma and Rixson floor closers, pivot sets, Adams Rite locks, bottom rail locks, C.R. Laurence hardware, LCN closers, Von Duprin exit devices, and Detex alarm roof exit devices.</p>
+    
+    <div class="info">
+        <p>Phone: 646-902-1981</p>
+<p>Email: expertdoormechanicserviceLLC@mail.com</p>
+        <p>Address: 1820 Avenue M, Unit 781, Brooklyn, New York 11230</p>
+    </div>
+</div>
+
 </body>
 </html>
